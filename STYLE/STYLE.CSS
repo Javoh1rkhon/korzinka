@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #fff;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.container .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box {
+    width: 360px;
+    height: 560px;
+    border: 1px solid #000;
+}
+
+.box .img {
+    width: 100%;
+    height: 40%;
+    border: 1px solid #000;
+}
+
+.box .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.box .text {
+    width: 100%;
+    height: 60%;
+    padding: 30px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box .text h1 {
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.box .text .des {
+    color: rgba(255, 255, 255, 0.56);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.box .text .rates {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.box .text .rates h3 {
+    color: #fff;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.box .text .rates h3 i {
+    color: rgb(14, 13, 204);
+    font-size: 14px;
+}
+
+.box .text button {
+    border-radius: 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
