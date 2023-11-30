@@ -253,6 +253,7 @@ chizish()
 
 const addItem = document.querySelectorAll('.addItem')
 const number = document.querySelector('.number')
+const all = document.querySelector('.all')
 
 function korzinka() {
     for (let i = 0; i < addItem.length; i++) {
@@ -261,6 +262,7 @@ function korzinka() {
             addItem[i].innerHTML = 'Добавлено'  
             addItem[i].style.backgroundColor = '#0073FF'
         })
+        all.innerHTML = addItem.length
     }
     
 }
